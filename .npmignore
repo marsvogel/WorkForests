@@ -1,0 +1,13 @@
+src/
+scripts/
+node_modules/
+.git/
+.gitignore
+.github/
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.tsbuildinfo
+tsconfig.json
+CLAUDE.md
