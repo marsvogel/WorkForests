@@ -308,3 +308,11 @@ When in doubt, the hints in the footer of each screen are authoritative — this
 - **No synchronizing.** There is no background agent, no hooks, no scheduler. The tool does something exactly when it's running and you trigger an action.
 - **No remote orchestration.** It does not care about GitHub PRs, Jira tickets, or CI. The forest name is free — you can use Jira IDs, short names, or whatever.
 - **No configuration.** Paths are fixed: source repos under `~/Repository/`, forests under `~/Work Forests/`. The choice is deliberate: if the tool fits for you, it fits. If not, you're better off forking than configuring.
+
+---
+
+## Credits
+
+The idea behind Workforests isn't mine. It came from [niheno](https://github.com/niheno), who dreamt up the concept long before a line of code was written — his vision of running a growing pile of tickets in parallel, fifteen at a time, fifteen branches side by side, an ever-expanding number of feature contexts carried forward at once. I'm the executing hand; the dream is his.
+
+So if you ever run into him on the street, buy him a coffee — and make it a proper one. This tool only exists because he had the idea first.
