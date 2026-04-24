@@ -6,6 +6,14 @@ Workforests is an interactive terminal tool that turns scattered git worktrees i
 
 ---
 
+## Whose idea this is
+
+Before anything else: the idea behind Workforests isn't mine. It came from [niheno](https://github.com/niheno), who dreamt it up long before a line of code was written — his vision of running a growing pile of tickets in parallel, fifteen at a time, fifteen branches side by side, an ever-expanding number of feature contexts carried forward at once. I'm the executing hand; the dream is his.
+
+So if you ever run into him on the street, buy him a coffee — and make it a proper one. This tool only exists because he had the idea first.
+
+---
+
 ## Why it exists
 
 Most serious features don't live in a single repository. A ticket like `PROJ-1234` in practice means: a branch in the API repo, one in the web frontend, one in the shared core library — and the branches have to match each other, differ from each other, and at the same time *not* destroy your current work on `PROJ-1199` and `OPS-42`.
