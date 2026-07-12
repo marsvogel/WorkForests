@@ -11,3 +11,8 @@ node_modules/
 *.tsbuildinfo
 tsconfig.json
 CLAUDE.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+AI_DISCLOSURE.md
+.npmignore
