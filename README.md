@@ -1,5 +1,10 @@
 # Workforests
 
+[![Build](https://github.com/marsvogel/WorkForests/actions/workflows/build.yml/badge.svg)](https://github.com/marsvogel/WorkForests/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/marsvogel/WorkForests)
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=claude&logoColor=fff)](./AI_DISCLOSURE.md)
+
 **One ticket. Multiple repositories. One workspace.**
 
 Workforests is an interactive terminal tool that turns scattered git worktrees into a shared working context. Instead of manually keeping branches in sync across three, four, five repositories, it bundles them into a *forest* — a folder where every participating worktree carries the same branch name, where your IDE opens everything at once, and which you create, rename, or discard with a single keystroke.
