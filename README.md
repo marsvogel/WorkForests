@@ -226,7 +226,7 @@ The file system is the truth. There is no database, no hidden directory elsewher
 Requirements:
 
 - **macOS** (Claude Code integration goes through AppleScript / iTerm2 — on Linux the Cursor path works; the iTerm2 path is mac-only)
-- **Node.js** ≥ 20
+- **Node.js** ≥ 22
 - **git** in `PATH`
 - Optional: **`cursor`** and/or **`claude`** in `PATH` (for opening from the IDE picker — if the binary is missing, the picker shows it as unavailable)
 - Your repositories under `~/Repository/` (recursively scanned up to depth 8; `node_modules`, `dist`, `.venv`, `target`, `Pods`, `.gradle`, etc. are skipped)
