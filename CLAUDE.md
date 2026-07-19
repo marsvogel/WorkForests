@@ -67,6 +67,10 @@ Screens receive callbacks from `app.tsx` (`onOpen`, `onEdit`, `onDelete`, …). 
 
 **Workspace file is synchronized, not authored-once.** `createForest`, `addWorktreeToForest`, `removeWorktreeFromForest`, and `renameForest` all call `writeWorkspaceFile` / `renameWorkspaceFile` at the end. If you add another forest-mutation path, keep this in sync or Cursor will open a stale workspace.
 
+## Code style
+
+**Never write explanatory comments.** Not in TypeScript, not in config or workflow YAML. Code says what it does; the reasoning behind a change belongs in the commit message and the pull request, where it stays attached to the diff it explains instead of drifting out of date next to it. Prose that describes the system as a whole goes here in `CLAUDE.md` or into `README.md`.
+
 ## UI design language
 
 Utility/Helix-inspired. One magenta accent, semantic green/yellow/red only for status. No panel borders, no decorative dividers — whitespace and bold carry hierarchy. Labels are English and compact (`move`, `open`, `new`, not `navigieren`). Symbols are semantic, not decorative. The theme exposes nine (`▸ ✓ ! × + > … ↑ ↓` in `ui/theme.ts`) for cursor/status/prompts; Home adds three metadata glyphs inline (`◆` worktree count, `◷` time, `⌁` repos). Don't add decorative ones.
