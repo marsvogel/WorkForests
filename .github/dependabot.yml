@@ -9,10 +9,6 @@ updates:
     schedule:
       interval: weekly
     groups:
-      # init and analyze are separate dependencies to Dependabot but must run
-      # the same release — a workflow mixing versions fails with "Loaded a
-      # configuration file for version X, but running version Y". Grouping
-      # them keeps every codeql-action bump in a single, mergeable PR.
       codeql-action:
         patterns:
           - "github/codeql-action*"
